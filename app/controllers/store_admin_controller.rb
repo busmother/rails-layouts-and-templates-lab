@@ -10,7 +10,7 @@ class StoreAdminController < ApplicationController
     end
 
     def invoice
-        render => "store_admin/invoice"
+        render layout: false
         # render :layout => "store_admin/invoice"
         # render :layout => "layouts/application"
     end
